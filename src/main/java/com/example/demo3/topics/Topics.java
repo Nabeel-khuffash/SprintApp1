@@ -41,4 +41,10 @@ public class Topics {
     {
         topicService.deleteTopic(id);
     }
+
+    @RequestMapping("/")
+    public String defultPage()
+    {
+        return "Hi";
+    }
 }
