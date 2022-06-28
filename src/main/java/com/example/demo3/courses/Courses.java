@@ -1,12 +1,11 @@
-package com.example.demo3.test2;
+package com.example.demo3.courses;
 
 
-import com.example.demo3.test1.Topic;
+import com.example.demo3.topics.Topic;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.Optional;
 
 @RestController
 public class Courses {
